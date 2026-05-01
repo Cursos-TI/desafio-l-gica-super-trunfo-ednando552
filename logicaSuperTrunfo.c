@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
@@ -12,6 +14,7 @@ int main() {
     printf("Hoje vamos comparar duas cartas de cidades brasileiras: São Paulo e Rio de Janeiro.\n");
     printf("Cada carta tem atributos como população, área, PIB, pontos turísticos, densidade demográfica e PIB per capita.\n");
     printf("Vamos descobrir qual carta tem o maior super poder com base nesses atributos!");
+    printf("Escolha uma opção: \n")
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
